@@ -25,6 +25,14 @@
                                     <input type="number" min="1" max="10" class="form-control quantity-input"
                                         name="quantity" value="1">
                                 </div>
+                                <br>
+                                    <select class="form-select size-select">
+                                        <option selected>Size</option>
+                                        <option value="S">S</option>
+                                        <option value="M">M</option>
+                                        <option value="L">L</option>
+                                        <option value="XL">XL</option>
+                                    </select>
                             </div>
                             <div class="col-auto">
                                 <button class="btn bg-primary text-white" type="submit">Add to cart</button>
